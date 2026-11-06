@@ -15,14 +15,14 @@ export const InvitationMessage: React.FC = () => {
 
         <OrnateDivider compact />
 
-        {/* Snehal's Supporting Portrait in Arched Vignette */}
+        {/* Snehal's Seated Portrait in Arched Vignette */}
         <div className="letter-portrait-wrap">
           <div className="letter-portrait-frame">
             <picture>
               <source srcSet="/images/supporting-snehal-peacock.webp" type="image/webp" />
               <img
                 src="/images/supporting-snehal-peacock.jpg"
-                alt="स्नेहलचे मोरपीस हातात धरलेले पारंपरिक छायाचित्र"
+                alt="स्नेहलचे मोरपीस आणि ग्रंथ वाचनातील पारंपरिक छायाचित्र"
                 className="letter-portrait-img"
                 width={768}
                 height={1024}
