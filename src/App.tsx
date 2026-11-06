@@ -2,7 +2,6 @@ import React from 'react';
 import { Hero } from './components/Hero';
 import { InvitationMessage } from './components/InvitationMessage';
 import { EventDetails } from './components/EventDetails';
-import { PhotoGallery } from './components/PhotoGallery';
 import { Closing } from './components/Closing';
 import { MusicPlayer } from './components/MusicPlayer';
 
@@ -33,7 +32,6 @@ export const App: React.FC = () => {
         <Hero />
         <InvitationMessage />
         <EventDetails />
-        <PhotoGallery />
         <Closing />
       </main>
 
